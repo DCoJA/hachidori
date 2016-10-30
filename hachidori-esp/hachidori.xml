@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Yuji\ownCloud\KiCad\hachidori_version2\hachidori.sch</source>
+    <date>2016/10/01 11:56:10</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>hachidori_version2</title>
+        <company/>
+        <rev>0.09</rev>
+        <date>2016-08-29</date>
+        <source>hachidori.sch</source>
+        <comment number="1" value="Copyright (c) 2016 DroneWorks Inc."/>
+        <comment number="2" value="All rights reserved"/>
+        <comment number="3" value="Creative Commons (CC BY-SA 4.0)"/>
+        <comment number="4" value="Desinged by: Yuji Ogusu(@minaki1018)"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U5">
+      <value>PCA9685</value>
+      <footprint>droneworks:PCA9685</footprint>
+      <libsource lib="droneworks" part="PCA9685PW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B1C63F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ESP-13-WROOM-02</value>
+      <footprint>droneworks:ESP-WROOM-02</footprint>
+      <libsource lib="droneworks" part="ESP-13-WROOM-02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B1D74A</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>BME280</value>
+      <footprint>droneworks:BME280</footprint>
+      <libsource lib="droneworks" part="BME280"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B28F9C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B2B6BF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B2C559</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B2C582</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B2CC4B</tstamp>
+    </comp>
+    <comp ref="CB5">
+      <value>104</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B2DF30</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MPU-9250</value>
+      <footprint>droneworks:MPU-9250</footprint>
+      <libsource lib="droneworks" part="MPU-9250"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B1D78F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B35E5F</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B3955C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B3E1A5</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B3E1C6</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>POWER</value>
+      <footprint>droneworks:LED_1608mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B496DE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B49AE1</tstamp>
+    </comp>
+    <comp ref="CB2">
+      <value>104</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B4AD68</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NCP1117ST33T3G</value>
+      <footprint>droneworks:NCP1117ST</footprint>
+      <libsource lib="regul" part="NCP1117ST33T3G"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B50196</tstamp>
+    </comp>
+    <comp ref="CB1">
+      <value>104</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B5019C</tstamp>
+    </comp>
+    <comp ref="CE2">
+      <value>22uF</value>
+      <footprint>droneworks:OS-CON-A5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B5B1DE</tstamp>
+    </comp>
+    <comp ref="CE1">
+      <value>22uF</value>
+      <footprint>droneworks:OS-CON-A5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B5B785</tstamp>
+    </comp>
+    <comp ref="CB3">
+      <value>104</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B915F7</tstamp>
+    </comp>
+    <comp ref="CB4">
+      <value>104</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B91931</tstamp>
+    </comp>
+    <comp ref="CB6">
+      <value>104</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B919D0</tstamp>
+    </comp>
+    <comp ref="CB7">
+      <value>104</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B91EC8</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>VIN</value>
+      <footprint>droneworks:Pin_Header_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B99954</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>FLASH</value>
+      <footprint>droneworks:B3U-1000P</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BD416E</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>RESET</value>
+      <footprint>droneworks:B3U-1000P</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BDEBB2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BE97A6</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>20k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BE5407</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>I2C</value>
+      <footprint>droneworks:Pin_Header_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B507F2</tstamp>
+    </comp>
+    <comp ref="TH2">
+      <value>3V3</value>
+      <footprint>droneworks:TH</footprint>
+      <libsource lib="droneworks" part="throughhole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B54218</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>ADC</value>
+      <footprint>droneworks:Pin_Header_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B7DE6A</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>UART</value>
+      <footprint>droneworks:Pin_Header_1x05</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B45C12</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>droneworks:1SS355</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C270A6</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>droneworks:1SS355</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C2B8FB</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>droneworks:1SS355</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C34464</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>droneworks:1SS355</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C368BD</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C379C6</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C37AD9</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C37BAA</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C37C7E</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>47</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C5019A</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>47</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C50270</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>47</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C50385</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>47</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C50743</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>FT230X</value>
+      <footprint>SSOP-16</footprint>
+      <libsource lib="droneworks" part="FT230X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C72182</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>microUSB_CONSOLE</value>
+      <libsource lib="droneworks" part="microUSB_CONSOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C764A3</tstamp>
+    </comp>
+    <comp ref="CB9">
+      <value>104</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C36412</tstamp>
+    </comp>
+    <comp ref="CB8">
+      <value>104</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C38092</tstamp>
+    </comp>
+    <comp ref="CC1">
+      <value>39pF</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C38177</tstamp>
+    </comp>
+    <comp ref="CC2">
+      <value>39pF</value>
+      <footprint>droneworks:GRM18</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C3849B</tstamp>
+    </comp>
+    <comp ref="CE3">
+      <value>10uF</value>
+      <footprint>droneworks:OS-CON-A5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C38529</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>22</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C3A794</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>22</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C3B7D2</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>TXLED</value>
+      <footprint>droneworks:LED_1608mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C40949</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>220</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C4094F</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>RXLED</value>
+      <footprint>droneworks:LED_1608mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C40A87</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>220</value>
+      <footprint>rohm:MCR03</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C42294</tstamp>
+    </comp>
+    <comp ref="TH1">
+      <value>throughhole</value>
+      <footprint>droneworks:TH</footprint>
+      <libsource lib="droneworks" part="throughhole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C414F7</tstamp>
+    </comp>
+    <comp ref="TH3">
+      <value>throughhole</value>
+      <footprint>droneworks:TH</footprint>
+      <libsource lib="droneworks" part="throughhole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C422BA</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>M3</value>
+      <footprint>droneworks:Pin_Header_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C3F2F0</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>M2</value>
+      <footprint>droneworks:Pin_Header_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C43EEF</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>M1</value>
+      <footprint>droneworks:Pin_Header_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C43FEF</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>M0</value>
+      <footprint>droneworks:Pin_Header_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C44212</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CF9000</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CFA61C</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CFAC40</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CFB202</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="droneworks" part="BME280">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BME280</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="CSB" type="passive"/>
+        <pin num="3" name="SDI" type="BiDi"/>
+        <pin num="4" name="SCK" type="output"/>
+        <pin num="5" name="SDO" type="passive"/>
+        <pin num="6" name="VDDIO" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector 01x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="droneworks" part="ESP-13-WROOM-02">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-13-WROOM-02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="EN" type="passive"/>
+        <pin num="3" name="GPIO14" type="BiDi"/>
+        <pin num="4" name="GPIO12" type="BiDi"/>
+        <pin num="5" name="GPIO13" type="BiDi"/>
+        <pin num="6" name="GPIO15" type="BiDi"/>
+        <pin num="7" name="GPIO2" type="BiDi"/>
+        <pin num="8" name="GPIO0" type="BiDi"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GPIO4" type="BiDi"/>
+        <pin num="11" name="RXD" type="input"/>
+        <pin num="12" name="TXD" type="output"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="GPIO5" type="BiDi"/>
+        <pin num="15" name="RST" type="passive"/>
+        <pin num="16" name="TOUT" type="output"/>
+        <pin num="17" name="GPIO16" type="BiDi"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="PAD" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="droneworks" part="FT230X">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT230X</field>
+        <field name="Footprint">SSOP-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TxD" type="output"/>
+        <pin num="2" name="~RTS" type="output"/>
+        <pin num="3" name="VCCIO" type="power_in"/>
+        <pin num="4" name="RxD" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~CTS" type="input"/>
+        <pin num="7" name="CBUS2" type="BiDi"/>
+        <pin num="8" name="USB_D+" type="BiDi"/>
+        <pin num="9" name="USB_D-" type="BiDi"/>
+        <pin num="10" name="3v3OUT" type="passive"/>
+        <pin num="11" name="~Reset" type="input"/>
+        <pin num="12" name="VCC" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="CBUS1" type="BiDi"/>
+        <pin num="15" name="CBUS0" type="BiDi"/>
+        <pin num="16" name="CBUS3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="droneworks" part="MPU-9250">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU-9250</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESV" type="passive"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="AUX_CL" type="output"/>
+        <pin num="8" name="VDDIO" type="passive"/>
+        <pin num="9" name="ADO/SDO" type="output"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="passive"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="VDD" type="passive"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="15" name="NC" type="NotConnected"/>
+        <pin num="16" name="NC" type="NotConnected"/>
+        <pin num="17" name="NC" type="NotConnected"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="RESV" type="NotConnected"/>
+        <pin num="20" name="RESV" type="passive"/>
+        <pin num="21" name="AUX_DA" type="BiDi"/>
+        <pin num="22" name="nCS" type="input"/>
+        <pin num="23" name="SCL/SCLK" type="output"/>
+        <pin num="24" name="SDA/SDI" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="NCP1117ST50T3G">
+      <aliases>
+        <alias>NCP1117ST12T3G</alias>
+        <alias>NCP1117ST15T3G</alias>
+        <alias>NCP1117ST18T3G</alias>
+        <alias>NCP1117ST20T3G</alias>
+        <alias>NCP1117ST25T3G</alias>
+        <alias>NCP1117ST285T3G</alias>
+        <alias>NCP1117ST33T3G</alias>
+      </aliases>
+      <description>1A Low drop-out regulator, Fixed Output 5V, SOT223</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117ST50T3G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="droneworks" part="PCA9685PW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9685PW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="passive"/>
+        <pin num="2" name="A1" type="passive"/>
+        <pin num="3" name="A2" type="passive"/>
+        <pin num="4" name="A3" type="passive"/>
+        <pin num="5" name="A4" type="passive"/>
+        <pin num="6" name="LED0" type="output"/>
+        <pin num="7" name="LED1" type="output"/>
+        <pin num="8" name="LED2" type="output"/>
+        <pin num="9" name="LED3" type="output"/>
+        <pin num="10" name="LED4" type="output"/>
+        <pin num="11" name="LED5" type="output"/>
+        <pin num="12" name="LED6" type="output"/>
+        <pin num="13" name="LED7" type="output"/>
+        <pin num="14" name="VSS" type="passive"/>
+        <pin num="15" name="LED8" type="output"/>
+        <pin num="16" name="LED9" type="output"/>
+        <pin num="17" name="LED10" type="output"/>
+        <pin num="18" name="LED11" type="output"/>
+        <pin num="19" name="LED12" type="output"/>
+        <pin num="20" name="LED13" type="output"/>
+        <pin num="21" name="LED14" type="output"/>
+        <pin num="22" name="LED15" type="output"/>
+        <pin num="23" name="OE" type="passive"/>
+        <pin num="24" name="A5" type="input"/>
+        <pin num="25" name="EXTCLK" type="input"/>
+        <pin num="26" name="SCL" type="input"/>
+        <pin num="27" name="SDA" type="BiDi"/>
+        <pin num="28" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GDS">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="droneworks" part="microUSB_CONSOLE">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">microUSB_CONSOLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="shiled" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="droneworks" part="throughhole">
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">throughhole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="droneworks">
+      <uri>C:\Users\Yuji\ownCloud\KiCad\hachidori_version2\droneworks.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(TH3-Pad1)">
+      <node ref="U6" pin="6"/>
+      <node ref="TH3" pin="1"/>
+    </net>
+    <net code="2" name="Net-(TH1-Pad1)">
+      <node ref="TH1" pin="1"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="3" name="Net-(LED3-Pad1)">
+      <node ref="LED3" pin="1"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="4" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="5" name="Net-(R12-Pad1)">
+      <node ref="U6" pin="9"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="6" name="Net-(U6-Pad15)">
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="7" name="/3V3">
+      <node ref="CB5" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="CB7" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U5" pin="28"/>
+      <node ref="R10" pin="1"/>
+      <node ref="CB9" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="13"/>
+      <node ref="P4" pin="1"/>
+      <node ref="U6" pin="10"/>
+      <node ref="U6" pin="11"/>
+      <node ref="TH2" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="P2" pin="3"/>
+      <node ref="R9" pin="1"/>
+      <node ref="P3" pin="3"/>
+      <node ref="CE2" pin="1"/>
+      <node ref="CB3" pin="1"/>
+      <node ref="CB6" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="CB2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="9" name="Net-(U6-Pad16)">
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="10" name="Net-(CON1-Pad4)">
+      <node ref="CON1" pin="4"/>
+    </net>
+    <net code="11" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="12" name="Net-(U5-Pad11)">
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="13" name="Net-(U5-Pad12)">
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="14" name="Net-(LED1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="LED1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="16" name="/HSPI_MISO">
+      <node ref="U2" pin="9"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="17" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="18" name="Net-(R3-Pad2)">
+      <node ref="U3" pin="7"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="19" name="/HSPI_CS">
+      <node ref="U2" pin="22"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="20" name="/HSPI_CLK">
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="21" name="/HSPI_MOSI">
+      <node ref="U2" pin="24"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="22" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="24" name="/SERVO3">
+      <node ref="R16" pin="1"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="25" name="Net-(Q4-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="26" name="Net-(Q1-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(Q2-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="28" name="Net-(Q3-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="29" name="/5V">
+      <node ref="CB8" pin="1"/>
+      <node ref="U6" pin="12"/>
+      <node ref="CON1" pin="1"/>
+      <node ref="CE3" pin="1"/>
+    </net>
+    <net code="30" name="Net-(LED2-Pad1)">
+      <node ref="U6" pin="14"/>
+      <node ref="LED2" pin="1"/>
+    </net>
+    <net code="31" name="Net-(LED2-Pad2)">
+      <node ref="LED2" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="32" name="Net-(LED3-Pad2)">
+      <node ref="LED3" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="33" name="/D-">
+      <node ref="CC2" pin="1"/>
+      <node ref="CON1" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="34" name="/D+">
+      <node ref="CON1" pin="3"/>
+      <node ref="R13" pin="2"/>
+      <node ref="CC1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(U5-Pad15)">
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="36" name="Net-(U5-Pad22)">
+      <node ref="U5" pin="22"/>
+    </net>
+    <net code="37" name="Net-(U5-Pad21)">
+      <node ref="U5" pin="21"/>
+    </net>
+    <net code="38" name="Net-(U5-Pad20)">
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="39" name="Net-(U5-Pad19)">
+      <node ref="U5" pin="19"/>
+    </net>
+    <net code="40" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="41" name="Net-(U5-Pad17)">
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="42" name="Net-(U5-Pad16)">
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="43" name="Net-(CB4-Pad1)">
+      <node ref="U2" pin="10"/>
+      <node ref="CB4" pin="1"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="46" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="47" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="48" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="49" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="50" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="51" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="52" name="Net-(U3-Pad17)">
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="53" name="/RXD">
+      <node ref="U3" pin="12"/>
+      <node ref="P2" pin="4"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="54" name="/TXD">
+      <node ref="P2" pin="2"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="55" name="/TOUT">
+      <node ref="P3" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="56" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="57" name="/SERVO0">
+      <node ref="R22" pin="1"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="58" name="/SERVO1">
+      <node ref="R20" pin="1"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="59" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="60" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="62" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="63" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="64" name="Net-(R6-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="65" name="/SERVO2">
+      <node ref="U5" pin="8"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="66" name="/I2C_SCL">
+      <node ref="U4" pin="4"/>
+      <node ref="P4" pin="3"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U5" pin="26"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="67" name="/I2C_SDA">
+      <node ref="U3" pin="10"/>
+      <node ref="P4" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U5" pin="27"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="P6" pin="2"/>
+    </net>
+    <net code="70" name="/VI">
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P8" pin="1"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="CE1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="CB1" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="71" name="GND">
+      <node ref="U6" pin="5"/>
+      <node ref="U6" pin="13"/>
+      <node ref="R19" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="P2" pin="5"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="P4" pin="4"/>
+      <node ref="CON1" pin="10"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="CON1" pin="11"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="CON1" pin="9"/>
+      <node ref="CON1" pin="7"/>
+      <node ref="CON1" pin="6"/>
+      <node ref="CON1" pin="5"/>
+      <node ref="CON1" pin="8"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U5" pin="25"/>
+      <node ref="CE3" pin="2"/>
+      <node ref="CC2" pin="2"/>
+      <node ref="CC1" pin="2"/>
+      <node ref="CB8" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U5" pin="5"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="CB7" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="CB9" pin="2"/>
+      <node ref="CB6" pin="2"/>
+      <node ref="CB2" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="CB1" pin="2"/>
+      <node ref="CE2" pin="2"/>
+      <node ref="CE1" pin="2"/>
+      <node ref="CB3" pin="2"/>
+      <node ref="CB4" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U5" pin="14"/>
+      <node ref="U5" pin="24"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R5" pin="2"/>
+      <node ref="CB5" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="18"/>
+      <node ref="U3" pin="PAD"/>
+    </net>
+    <net code="72" name="Net-(D4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="P8" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="P7" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+  </nets>
+</export>
