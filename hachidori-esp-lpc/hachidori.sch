@@ -37,9 +37,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "hachidori-esp"
-Date "2017-01-06"
-Rev "0.10"
+Title "hachidori-esp-lpc"
+Date "2017-02-11"
+Rev "0.01"
 Comp ""
 Comment1 "Copyright (c) 2016 DroneWorks Inc."
 Comment2 "All rights reserved"
