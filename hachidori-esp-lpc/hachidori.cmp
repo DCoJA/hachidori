@@ -1,0 +1,595 @@
+Cmp-Mod V01 Created by PcbNew   date = 2016/10/16 22:31:44
+
+BeginCmp
+TimeStamp = 57FB9238
+Path = /57C764A3
+Reference = CON1;
+ValeurCmp = microUSB_CONSOLE;
+IdModule  = droneworks:10118194-0001LF;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA28AB
+Path = /57CFB202
+Reference = Q4;
+ValeurCmp = BSS138;
+IdModule  = droneworks:BSS138;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA28A4
+Path = /57CFAC40
+Reference = Q3;
+ValeurCmp = BSS138;
+IdModule  = droneworks:BSS138;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA289D
+Path = /57CFA61C
+Reference = Q2;
+ValeurCmp = BSS138;
+IdModule  = droneworks:BSS138;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA2896
+Path = /57FB9D5B
+Reference = Q1;
+ValeurCmp = BSS138;
+IdModule  = droneworks:BSS138;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA1092
+Path = /57C72182
+Reference = U6;
+ValeurCmp = FT230X;
+IdModule  = droneworks:FT230XS;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0C34
+Path = /57F50C2B
+Reference = R24;
+ValeurCmp = 10k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA06E3
+Path = /57B28F9C
+Reference = U4;
+ValeurCmp = BME280;
+IdModule  = droneworks:BME280;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA06AF
+Path = /57B1D78F
+Reference = U2;
+ValeurCmp = MPU-9250;
+IdModule  = droneworks:MPU-9250;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA068E
+Path = /57B50196
+Reference = U1;
+ValeurCmp = AP7661-33ER;
+IdModule  = droneworks:NCP1117ST;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA067B
+Path = /57B54218
+Reference = TH2;
+ValeurCmp = 3V3;
+IdModule  = droneworks:TH;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0672
+Path = /57C414F7
+Reference = TH1;
+ValeurCmp = /RTS;
+IdModule  = droneworks:TH;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0669
+Path = /57BDEBB2
+Reference = SW2;
+ValeurCmp = RESET;
+IdModule  = droneworks:B3U-1000P;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA065D
+Path = /57BD416E
+Reference = SW1;
+ValeurCmp = FLASH;
+IdModule  = droneworks:B3U-1000P;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0645
+Path = /57C50743
+Reference = R22;
+ValeurCmp = 47;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0639
+Path = /57C37BAA
+Reference = R21;
+ValeurCmp = 1k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA062D
+Path = /57C50385
+Reference = R20;
+ValeurCmp = 47;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0621
+Path = /57C37AD9
+Reference = R19;
+ValeurCmp = 1k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0609
+Path = /57C379C6
+Reference = R17;
+ValeurCmp = 1k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA05FD
+Path = /57C5019A
+Reference = R16;
+ValeurCmp = 47;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA05F1
+Path = /57C42294
+Reference = R15;
+ValeurCmp = 220;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA05E5
+Path = /57C4094F
+Reference = R14;
+ValeurCmp = 220;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA05D9
+Path = /57C3B7D2
+Reference = R13;
+ValeurCmp = 22;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA05CD
+Path = /57C3A794
+Reference = R12;
+ValeurCmp = 22;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA05B5
+Path = /57B3E1C6
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA05A9
+Path = /57B3E1A5
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA059D
+Path = /57BE97A6
+Reference = R8;
+ValeurCmp = 2k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0591
+Path = /57B35E5F
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0585
+Path = /57BE5407
+Reference = R6;
+ValeurCmp = 20k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0579
+Path = /57B2CC4B
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA056D
+Path = /57B2B6BF
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0561
+Path = /57B2C559
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0555
+Path = /57B2C582
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0549
+Path = /57B49AE1
+Reference = R1;
+ValeurCmp = 220;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA051D
+Path = /57B7DE6A
+Reference = P3;
+ValeurCmp = ADC;
+IdModule  = droneworks:Pin_Header_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0507
+Path = /57C40949
+Reference = LED3;
+ValeurCmp = TX;
+IdModule  = droneworks:LED_1608mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA04E5
+Path = /57B496DE
+Reference = LED1;
+ValeurCmp = POWER;
+IdModule  = droneworks:LED_1608mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA04D4
+Path = /57FAB744
+Reference = D4;
+ValeurCmp = RSX101VA-30;
+IdModule  = droneworks:1SS355;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA04CC
+Path = /57FAB64B
+Reference = D3;
+ValeurCmp = RSX101VA-30;
+IdModule  = droneworks:1SS355;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA04C4
+Path = /57FA7940
+Reference = D2;
+ValeurCmp = RSX101VA-30;
+IdModule  = droneworks:1SS355;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA04BC
+Path = /57C270A6
+Reference = D1;
+ValeurCmp = RSX101VA-30;
+IdModule  = droneworks:1SS355;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA04B4
+Path = /57C38529
+Reference = CE3;
+ValeurCmp = 10uF;
+IdModule  = droneworks:OS-CON-A5;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA04A4
+Path = /57B5B1DE
+Reference = CE2;
+ValeurCmp = 22uF;
+IdModule  = droneworks:OS-CON-A5;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0484
+Path = /57C3849B
+Reference = CC2;
+ValeurCmp = 39pF;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA046C
+Path = /57C36412
+Reference = CB9;
+ValeurCmp = 104;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0460
+Path = /57C38092
+Reference = CB8;
+ValeurCmp = 104;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0454
+Path = /57B91EC8
+Reference = CB7;
+ValeurCmp = 104;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0448
+Path = /57B919D0
+Reference = CB6;
+ValeurCmp = 104;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA043C
+Path = /57B2DF30
+Reference = CB5;
+ValeurCmp = 104;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0430
+Path = /57B91931
+Reference = CB4;
+ValeurCmp = 104;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0424
+Path = /57B915F7
+Reference = CB3;
+ValeurCmp = 104;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0418
+Path = /57B4AD68
+Reference = CB2;
+ValeurCmp = 104;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA040C
+Path = /57B5019C
+Reference = CB1;
+ValeurCmp = 104;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0478
+Path = /57C38177
+Reference = CC1;
+ValeurCmp = 39pF;
+IdModule  = droneworks:GRM18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0684
+Path = /57FAF6F8
+Reference = TH3;
+ValeurCmp = GND;
+IdModule  = droneworks:TH;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA28B1
+Path = /57FA7461
+Reference = R25;
+ValeurCmp = 0;
+IdModule  = rohm:MCR18;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0494
+Path = /57B5B785
+Reference = CE1;
+ValeurCmp = 22uF;
+IdModule  = droneworks:OS-CON-A5;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0651
+Path = /57C37C7E
+Reference = R23;
+ValeurCmp = 1k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0516
+Path = /57B45C12
+Reference = P2;
+ValeurCmp = UART;
+IdModule  = droneworks:Pin_Header_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0525
+Path = /57B507F2
+Reference = P4;
+ValeurCmp = I2C;
+IdModule  = droneworks:Pin_Header_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FB8BC2
+Path = /57B1C63F
+Reference = U5;
+ValeurCmp = PCA9685;
+IdModule  = droneworks:PCA9685;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FB8D34
+Path = /57B3955C
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA06CA
+Path = /57B1D74A
+Reference = U3;
+ValeurCmp = ESP-13-WROOM-02;
+IdModule  = droneworks:ESP-WROOM-02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0615
+Path = /57C50270
+Reference = R18;
+ValeurCmp = 47;
+IdModule  = rohm:MCR03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA04F6
+Path = /57C40A87
+Reference = LED2;
+ValeurCmp = RX;
+IdModule  = droneworks:LED_1608mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA050D
+Path = /57B99954
+Reference = P1;
+ValeurCmp = VI;
+IdModule  = droneworks:Pin_Header_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0537
+Path = /57C43FEF
+Reference = P7;
+ValeurCmp = M1;
+IdModule  = droneworks:Pin_Header_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA053D
+Path = /57C44212
+Reference = P8;
+ValeurCmp = M0;
+IdModule  = droneworks:Pin_Header_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 580354E8
+Path = /5803D8B9
+Reference = P9;
+ValeurCmp = PWM0;
+IdModule  = droneworks:Pin_Header_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 580354ED
+Path = /5803D9C3
+Reference = P10;
+ValeurCmp = PWM1;
+IdModule  = droneworks:Pin_Header_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 580354F2
+Path = /5803DAB5
+Reference = P11;
+ValeurCmp = PWM2;
+IdModule  = droneworks:Pin_Header_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 580354F7
+Path = /5803DBAA
+Reference = P12;
+ValeurCmp = PWM3;
+IdModule  = droneworks:Pin_Header_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA052B
+Path = /57C3F2F0
+Reference = P5;
+ValeurCmp = M3;
+IdModule  = droneworks:Pin_Header_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA0531
+Path = /57C43EEF
+Reference = P6;
+ValeurCmp = M2;
+IdModule  = droneworks:Pin_Header_1x02;
+EndCmp
+
+EndListe
