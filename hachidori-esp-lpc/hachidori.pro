@@ -1,19 +1,9 @@
-update=2017年02月11日 17時59分38秒
+update=2017年02月12日 14時21分16秒
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=DW-cc.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -71,3 +61,13 @@ LibName31=droneworks
 LibName32=rohm
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=DW-cc.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
