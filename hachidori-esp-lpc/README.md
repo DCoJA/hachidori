@@ -8,13 +8,15 @@
 
 2. LPC812M101JDH20  
     20 pin type.  
+
     Pin assign  
-     Pin | Name | Function  
-     ---- | ---- | ---- | ----  
-     2 | PI0_13 | SDI0_MOSI  
-     3 | PI0_12 | SDI0_SCK  
-     5 | PI0_4 | SDI0_MISO  
-     12 | PI0_0 | SDI0_SSEL  
+
+    |  Pin  |     Name    |    Function    |
+    |-------|------------:|:--------------:|
+    |   2   |   PIO0_13   |    SDI0_MOSI   |
+    |   3   |   PIO0_12   |    SDI0_SCK    |
+    |   5   |   PIO0_4    |    SDI0_MISO   |
+    |   12  |   PIO0_0    |    SDI0_SSEL   |
     
     * [datasheet](http://www.nxp.com/documents/data_sheet/LPC81XM.pdf)
     * [buy](http://www.digikey.jp/product-detail/ja/nxp-usa-inc/LPC812M101JD20J/568-11832-1-ND/5221834)  
