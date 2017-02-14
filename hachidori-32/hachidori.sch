@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "hachidori-32"
 Date "2017-02-14"
-Rev "0.02"
+Rev "0.03"
 Comp ""
 Comment1 "Copyright (c) 2016 DroneWorks Inc."
 Comment2 "All rights reserved"
@@ -512,6 +512,62 @@ Text Label 7550 3050 0    60   ~ 0
 VSPI_MISO
 Text Label 7550 3150 0    60   ~ 0
 VSPI_CLK
+Text Notes 9050 4200 1    60   ~ 0
+MPU_SPI0_CS
+Text Label 7550 2850 0    60   ~ 0
+CS1
+Text Label 1500 1750 1    60   ~ 0
+VIN+
+Text Label 1900 1750 1    60   ~ 0
+VIN-
+Text Label 2050 1750 1    60   ~ 0
+VBUS
+Text Notes 2650 4000 0    60   ~ 0
+GND
+$Comp
+L CONN_01X04 P?
+U 1 1 58A6AA40
+P 4600 6100
+F 0 "P?" H 4600 6350 50  0000 C CNN
+F 1 "SERVO" V 4700 6100 50  0000 C CNN
+F 2 "droneworks:Pin_Header_1x04" H 4600 6100 50  0001 C CNN
+F 3 "" H 4600 6100 50  0000 C CNN
+	1    4600 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 58A31B2C
+P 4050 6100
+F 0 "P?" H 4050 6350 50  0000 C CNN
+F 1 "GND" V 4150 6100 50  0000 C CNN
+F 2 "droneworks:Pin_Header_1x04" H 4050 6100 50  0001 C CNN
+F 3 "" H 4050 6100 50  0000 C CNN
+	1    4050 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 58A329A7
+P 3450 6100
+F 0 "P?" H 3450 6350 50  0000 C CNN
+F 1 "V+" V 3550 6100 50  0000 C CNN
+F 2 "droneworks:Pin_Header_1x04" H 3450 6100 50  0001 C CNN
+F 3 "" H 3450 6100 50  0000 C CNN
+	1    3450 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58A32D35
+P 3450 5600
+F 0 "P?" H 3450 5750 50  0000 C CNN
+F 1 "ESC_VCC_GND" V 3550 5600 50  0000 C CNN
+F 2 "droneworks:Pin_Header_1x02" H 3450 5600 50  0001 C CNN
+F 3 "" H 3450 5600 50  0000 C CNN
+	1    3450 5600
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	1250 2500 2200 2500
 Wire Wire Line
@@ -709,7 +765,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 4700 4550 4700
 Wire Wire Line
-	4550 4700 3950 4700
+	4550 4700 4350 4700
+Wire Wire Line
+	4350 4700 3950 4700
 Wire Wire Line
 	3950 4700 2700 4700
 Wire Wire Line
@@ -745,8 +803,15 @@ Wire Wire Line
 Wire Wire Line
 	4550 2550 4550 3700
 Wire Wire Line
-	4550 4700 4550 4300
-Connection ~ 4550 4700
+	4350 4700 4350 5550
+Wire Wire Line
+	4350 5550 4350 5950
+Wire Wire Line
+	4350 5950 4350 6050
+Wire Wire Line
+	4350 6050 4350 6150
+Wire Wire Line
+	4350 6150 4350 6250
 Wire Wire Line
 	5800 4700 5800 3900
 Wire Wire Line
@@ -834,8 +899,6 @@ Wire Wire Line
 	9250 6300 10650 6300
 Wire Wire Line
 	9050 6200 9050 6300
-Text Notes 9050 4200 1    60   ~ 0
-MPU_SPI0_CS
 Wire Wire Line
 	8950 3150 8950 3450
 Wire Wire Line
@@ -857,8 +920,6 @@ Connection ~ 9150 3350
 Wire Wire Line
 	9350 3450 8950 3450
 Connection ~ 8950 3450
-Text Label 7550 2850 0    60   ~ 0
-CS1
 Wire Wire Line
 	7250 2850 9050 2850
 Wire Wire Line
@@ -884,14 +945,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 4200 3950 4200
 Connection ~ 3950 4200
-Text Label 1500 1750 1    60   ~ 0
-VIN+
-Text Label 1900 1750 1    60   ~ 0
-VIN-
-Text Label 2050 1750 1    60   ~ 0
-VBUS
-Text Notes 2650 4000 0    60   ~ 0
-GND
 Wire Wire Line
 	2800 3900 2550 3900
 Wire Wire Line
@@ -922,33 +975,89 @@ Wire Wire Line
 	7500 4700 7500 4350
 Connection ~ 7500 4700
 Connection ~ 8000 4700
-$Comp
-L CONN_01X04 P?
-U 1 1 58A6AA40
-P 4850 5100
-F 0 "P?" H 4850 5350 50  0000 C CNN
-F 1 "PWM" V 4950 5100 50  0000 C CNN
-F 2 "droneworks:Pin_Header_1x04" H 4850 5100 50  0001 C CNN
-F 3 "" H 4850 5100 50  0000 C CNN
-	1    4850 5100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	5900 3900 5900 5250
+	5250 3650 5250 6150
 Wire Wire Line
-	5900 5250 5050 5250
-Wire Wire Line
-	5250 3650 5250 5150
-Wire Wire Line
-	5250 5150 5050 5150
+	5250 6150 4800 6150
 Wire Wire Line
 	5250 3550 5150 3550
 Wire Wire Line
-	5150 3550 5150 5050
+	5150 3550 5150 6050
 Wire Wire Line
-	5150 5050 5050 5050
+	5150 6050 4800 6050
 Wire Wire Line
-	5050 4950 5050 3450
+	4800 5950 5050 5950
+Wire Wire Line
+	5050 5950 5050 3450
 Wire Wire Line
 	5050 3450 5250 3450
+Wire Wire Line
+	4350 6050 4250 6050
+Wire Wire Line
+	4350 6150 4250 6150
+Connection ~ 4350 6050
+Wire Wire Line
+	4350 6250 4250 6250
+Connection ~ 4350 6150
+Wire Wire Line
+	4250 5950 4350 5950
+Connection ~ 4350 5950
+Wire Wire Line
+	3650 5650 3850 5650
+Wire Wire Line
+	3850 5650 3850 5950
+Wire Wire Line
+	3850 5950 3850 6050
+Wire Wire Line
+	3850 6050 3850 6150
+Wire Wire Line
+	3850 6150 3850 6250
+Wire Wire Line
+	3850 6250 3650 6250
+Wire Wire Line
+	3650 6150 3850 6150
+Connection ~ 3850 6150
+Wire Wire Line
+	3650 6050 3850 6050
+Connection ~ 3850 6050
+Wire Wire Line
+	3650 5950 3850 5950
+Connection ~ 3850 5950
+Wire Wire Line
+	3650 5550 4350 5550
+Connection ~ 4350 5550
+Text Label 4800 6250 0    60   ~ 0
+CH0
+Text Label 4800 6150 0    60   ~ 0
+CH1
+Text Label 4800 6050 0    60   ~ 0
+CH2
+Text Label 4800 5950 0    60   ~ 0
+CH3
+Wire Wire Line
+	4550 4700 4550 4300
+Connection ~ 4550 4700
+Connection ~ 4350 4700
+Wire Notes Line
+	3100 5300 5450 5300
+Wire Notes Line
+	5450 5300 5450 6500
+Text Notes 3100 5300 0    60   ~ 0
+ESC Interface
+Wire Wire Line
+	5900 3900 5900 4050
+Wire Wire Line
+	5900 4050 5350 4050
+Wire Wire Line
+	5350 4050 5350 6250
+Wire Wire Line
+	5350 6250 4800 6250
+Wire Notes Line
+	3100 5300 3100 6500
+Wire Notes Line
+	3100 6500 5450 6500
+Text Label 3650 5650 0    60   ~ 0
+ESC_VCC
+Text Notes 3650 5550 0    60   ~ 0
+ESC_GND
 $EndSCHEMATC
