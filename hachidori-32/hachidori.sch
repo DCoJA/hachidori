@@ -49,12 +49,12 @@ $EndDescr
 $Comp
 L BME280 U4
 U 1 1 57B28F9C
-P 9800 3300
-F 0 "U4" H 9800 3600 60  0000 C CNN
-F 1 "BME280" H 9800 3050 60  0000 C CNN
-F 2 "droneworks:BME280" H 9800 3250 60  0001 C CNN
-F 3 "" H 9800 3250 60  0000 C CNN
-	1    9800 3300
+P 9850 3300
+F 0 "U4" H 9850 3600 60  0000 C CNN
+F 1 "BME280" H 9850 3050 60  0000 C CNN
+F 2 "droneworks:BME280" H 9850 3250 60  0001 C CNN
+F 3 "" H 9850 3250 60  0000 C CNN
+	1    9850 3300
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -79,19 +79,19 @@ F 3 "" H 4750 4000 50  0000 C CNN
 	1    4750 4000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9950 4600
-NoConn ~ 9950 4700
-NoConn ~ 9950 4800
-NoConn ~ 9950 4900
+NoConn ~ 10000 4600
+NoConn ~ 10000 4700
+NoConn ~ 10000 4800
+NoConn ~ 10000 4900
 $Comp
 L MPU-9250 U2
 U 1 1 57B1D78F
-P 9150 5100
-F 0 "U2" H 9150 5000 60  0000 C CNN
-F 1 "MPU-9250" H 9150 5100 60  0000 C CNN
-F 2 "droneworks:MPU-9250" H 9150 5000 60  0001 C CNN
-F 3 "" H 9150 5000 60  0000 C CNN
-	1    9150 5100
+P 9200 5100
+F 0 "U2" H 9200 5000 60  0000 C CNN
+F 1 "MPU-9250" H 9200 5100 60  0000 C CNN
+F 2 "droneworks:MPU-9250" H 9200 5000 60  0001 C CNN
+F 3 "" H 9200 5000 60  0000 C CNN
+	1    9200 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -218,23 +218,23 @@ $EndComp
 $Comp
 L C CB4
 U 1 1 57B91931
-P 9050 6050
-F 0 "CB4" H 8900 6150 50  0000 L CNN
-F 1 "104" H 8900 5950 50  0000 L CNN
-F 2 "droneworks:GRM18" H 9088 5900 50  0001 C CNN
-F 3 "" H 9050 6050 50  0000 C CNN
-	1    9050 6050
+P 9100 6050
+F 0 "CB4" H 8950 6150 50  0000 L CNN
+F 1 "104" H 8950 5950 50  0000 L CNN
+F 2 "droneworks:GRM18" H 9138 5900 50  0001 C CNN
+F 3 "" H 9100 6050 50  0000 C CNN
+	1    9100 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L C CB6
 U 1 1 57B919D0
-P 10650 3400
-F 0 "CB6" V 10600 3450 50  0000 L CNN
-F 1 "104" V 10600 3200 50  0000 L CNN
-F 2 "droneworks:GRM18" H 10688 3250 50  0001 C CNN
-F 3 "" H 10650 3400 50  0000 C CNN
-	1    10650 3400
+P 10700 3400
+F 0 "CB6" V 10650 3450 50  0000 L CNN
+F 1 "104" V 10650 3200 50  0000 L CNN
+F 2 "droneworks:GRM18" H 10738 3250 50  0001 C CNN
+F 3 "" H 10700 3400 50  0000 C CNN
+	1    10700 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -362,7 +362,7 @@ F 3 "" H 8650 3650 50  0000 C CNN
 	1    8650 3650
 	1    0    0    -1  
 $EndComp
-Text Notes 8750 6300 0    60   ~ 0
+Text Notes 8800 6300 0    60   ~ 0
 GND
 Text Notes 4100 3650 1    60   ~ 0
 3V3
@@ -458,7 +458,7 @@ F 3 "" H 1700 1050 50  0000 C CNN
 	1    1700 1050
 	0    -1   -1   0   
 $EndComp
-Text Notes 10050 3650 0    60   ~ 0
+Text Notes 10100 3650 0    60   ~ 0
 GND
 NoConn ~ 3700 4100
 Text Label 7550 3450 0    60   ~ 0
@@ -469,9 +469,9 @@ Text Notes 3700 4300 0    60   ~ 0
 3V3
 Text Notes 3700 4200 0    60   ~ 0
 GND
-Text Notes 8850 4200 1    60   ~ 0
+Text Notes 8900 4200 1    60   ~ 0
 MPU_SPI0_SO
-Text Notes 9150 4200 1    60   ~ 0
+Text Notes 9200 4200 1    60   ~ 0
 MPU_SPI0_SI
 Text Label 4900 2550 0    60   ~ 0
 RESET
@@ -502,7 +502,7 @@ NoConn ~ 6200 3900
 NoConn ~ 6300 3900
 NoConn ~ 6400 3900
 NoConn ~ 6500 3900
-Text Notes 8950 4200 1    60   ~ 0
+Text Notes 9000 4200 1    60   ~ 0
 MPU_SPI0_SCLK
 Text Label 7550 3250 0    60   ~ 0
 VSPI_CS0
@@ -512,7 +512,7 @@ Text Label 7550 3050 0    60   ~ 0
 VSPI_MISO
 Text Label 7550 3150 0    60   ~ 0
 VSPI_CLK
-Text Notes 9050 4200 1    60   ~ 0
+Text Notes 9100 4200 1    60   ~ 0
 MPU_SPI0_CS
 Text Label 7550 2850 0    60   ~ 0
 CS1
@@ -568,6 +568,31 @@ F 3 "" H 3450 5600 50  0000 C CNN
 	1    3450 5600
 	-1   0    0    1   
 $EndComp
+Text Label 4800 6250 0    60   ~ 0
+CH0
+Text Label 4800 6150 0    60   ~ 0
+CH1
+Text Label 4800 6050 0    60   ~ 0
+CH2
+Text Label 4800 5950 0    60   ~ 0
+CH3
+Text Notes 3100 5300 0    60   ~ 0
+ESC Interface
+Text Label 3650 5650 0    60   ~ 0
+ESC_VCC
+Text Notes 3650 5550 0    60   ~ 0
+ESC_GND
+$Comp
+L CONN_01X05 P?
+U 1 1 58A39F84
+P 9750 2650
+F 0 "P?" H 9750 2950 50  0000 C CNN
+F 1 "UART" V 9850 2650 50  0000 C CNN
+F 2 "droneworks:Pin_Header_1x05" H 9750 2650 50  0001 C CNN
+F 3 "" H 9750 2650 50  0000 C CNN
+	1    9750 2650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1250 2500 2200 2500
 Wire Wire Line
@@ -583,12 +608,12 @@ Wire Wire Line
 Wire Wire Line
 	3800 2500 3950 2500
 Connection ~ 4550 2550
-Connection ~ 9250 6300
+Connection ~ 9300 6300
 Wire Wire Line
-	9250 6300 9250 5900
-Connection ~ 9150 6300
+	9300 6300 9300 5900
+Connection ~ 9200 6300
 Wire Wire Line
-	9150 6300 9150 5900
+	9200 6300 9200 5900
 Connection ~ 2200 2500
 Wire Wire Line
 	1250 1150 1250 2500
@@ -614,7 +639,9 @@ Wire Wire Line
 Wire Wire Line
 	8200 6300 8200 6050
 Wire Wire Line
-	8200 1750 8200 3650
+	8200 1750 8200 2650
+Wire Wire Line
+	8200 2650 8200 3650
 Wire Wire Line
 	8200 3650 8200 4700
 Wire Wire Line
@@ -653,7 +680,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 1750 8200 1750
 Wire Wire Line
-	8200 1750 10450 1750
+	8200 1750 10500 1750
 Wire Wire Line
 	4750 2450 5250 2450
 Wire Wire Line
@@ -672,11 +699,11 @@ Connection ~ 4750 2450
 Connection ~ 8200 4700
 Connection ~ 8200 4800
 Wire Wire Line
-	8200 4800 8350 4800
+	8200 4800 8400 4800
 Wire Wire Line
-	8200 4900 8350 4900
+	8200 4900 8400 4900
 Wire Wire Line
-	8200 4700 8350 4700
+	8200 4700 8400 4700
 Wire Wire Line
 	4750 1750 4750 2450
 Wire Wire Line
@@ -684,13 +711,13 @@ Wire Wire Line
 Wire Wire Line
 	2850 2050 2850 2500
 Wire Wire Line
-	9250 3150 9350 3150
+	9300 3150 9400 3150
 Wire Wire Line
 	4400 2300 4400 3350
 Wire Wire Line
 	4400 3350 4400 3900
 Wire Wire Line
-	10650 3150 10650 3250
+	10700 3150 10700 3250
 Connection ~ 2200 1750
 Connection ~ 3800 2500
 Wire Wire Line
@@ -701,7 +728,7 @@ Wire Wire Line
 	4100 3750 4100 4300
 Connection ~ 4100 1750
 Connection ~ 8200 6300
-Connection ~ 9050 6300
+Connection ~ 9100 6300
 Wire Wire Line
 	4250 2300 4250 3250
 Wire Wire Line
@@ -709,9 +736,9 @@ Wire Wire Line
 Wire Wire Line
 	3950 3450 3400 3450
 Wire Wire Line
-	10250 3150 10450 3150
+	10300 3150 10500 3150
 Wire Wire Line
-	10450 3150 10650 3150
+	10500 3150 10700 3150
 Wire Wire Line
 	1900 1450 1900 1500
 Wire Wire Line
@@ -726,14 +753,14 @@ Wire Wire Line
 	1500 1050 1500 1150
 Connection ~ 1500 1050
 Wire Wire Line
-	9250 3650 10350 3650
+	9300 3650 10400 3650
 Wire Wire Line
-	10350 3650 10650 3650
+	10400 3650 10700 3650
 Wire Wire Line
-	10450 1750 10450 3150
+	10500 1750 10500 3150
 Wire Wire Line
-	10450 3150 10450 3350
-Connection ~ 10450 3150
+	10500 3150 10500 3350
+Connection ~ 10500 3150
 Wire Wire Line
 	2200 1450 2200 1750
 Wire Wire Line
@@ -745,7 +772,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 1750 2400 2000
 Connection ~ 2400 1750
-Connection ~ 10350 3650
+Connection ~ 10400 3650
 Wire Wire Line
 	4550 2550 5250 2550
 Wire Wire Line
@@ -785,9 +812,9 @@ Wire Wire Line
 Connection ~ 4100 3150
 Connection ~ 3950 3450
 Wire Wire Line
-	10650 6300 10650 3650
+	10700 6300 10700 3650
 Wire Wire Line
-	10650 3650 10650 3550
+	10700 3650 10700 3550
 Wire Wire Line
 	1550 1500 1500 1500
 Wire Wire Line
@@ -827,15 +854,15 @@ Wire Wire Line
 	4900 4700 4900 2350
 Connection ~ 4900 4700
 Wire Wire Line
-	7250 2450 9150 2450
+	7250 2450 9200 2450
 Wire Wire Line
-	7250 3150 8950 3150
+	7250 3150 9000 3150
 Wire Wire Line
-	7250 3250 9350 3250
+	7250 3250 9400 3250
 Wire Wire Line
-	7250 3050 8850 3050
+	7250 3050 8900 3050
 Wire Wire Line
-	8850 3050 10250 3050
+	8900 3050 10300 3050
 Wire Wire Line
 	7800 3450 7250 3450
 Wire Wire Line
@@ -890,43 +917,47 @@ Connection ~ 8000 3850
 Wire Wire Line
 	8000 6300 8200 6300
 Wire Wire Line
-	8200 6300 9050 6300
+	8200 6300 9100 6300
 Wire Wire Line
-	9050 6300 9150 6300
+	9100 6300 9200 6300
 Wire Wire Line
-	9150 6300 9250 6300
+	9200 6300 9300 6300
 Wire Wire Line
-	9250 6300 10650 6300
+	9300 6300 10700 6300
 Wire Wire Line
-	9050 6200 9050 6300
+	9100 6200 9100 6300
 Wire Wire Line
-	8950 3150 8950 3450
+	9000 3150 9000 3450
 Wire Wire Line
-	8950 3450 8950 4250
+	9000 3450 9000 4250
 Wire Wire Line
-	9150 2450 9150 3350
+	9200 2450 9200 3350
 Wire Wire Line
-	9150 3350 9150 4250
+	9200 3350 9200 4250
 Connection ~ 8200 1750
 Wire Wire Line
-	10450 3350 10250 3350
+	10500 3350 10300 3350
 Wire Wire Line
-	10250 3250 10350 3250
+	10300 3250 10400 3250
 Wire Wire Line
-	10350 3250 10350 3650
+	10400 3250 10400 3650
 Wire Wire Line
-	9350 3350 9150 3350
-Connection ~ 9150 3350
+	9400 3350 9200 3350
+Connection ~ 9200 3350
 Wire Wire Line
-	9350 3450 8950 3450
-Connection ~ 8950 3450
+	9400 3450 9000 3450
+Connection ~ 9000 3450
 Wire Wire Line
-	7250 2850 9050 2850
+	7250 2850 9100 2850
 Wire Wire Line
-	9050 2850 9050 4250
+	9100 2850 9100 4250
 Wire Wire Line
-	9250 3150 9250 3650
-Connection ~ 10650 3650
+	9300 2450 9300 2850
+Wire Wire Line
+	9300 2850 9300 3150
+Wire Wire Line
+	9300 3150 9300 3650
+Connection ~ 10700 3650
 Wire Wire Line
 	6850 4550 6850 4700
 Wire Wire Line
@@ -967,10 +998,10 @@ Wire Wire Line
 Wire Wire Line
 	1500 4300 2800 4300
 Wire Wire Line
-	8850 3050 8850 4250
+	8900 3050 8900 4250
 Wire Wire Line
-	10250 3050 10250 3450
-Connection ~ 8850 3050
+	10300 3050 10300 3450
+Connection ~ 8900 3050
 Wire Wire Line
 	7500 4700 7500 4350
 Connection ~ 7500 4700
@@ -1026,14 +1057,6 @@ Connection ~ 3850 5950
 Wire Wire Line
 	3650 5550 4350 5550
 Connection ~ 4350 5550
-Text Label 4800 6250 0    60   ~ 0
-CH0
-Text Label 4800 6150 0    60   ~ 0
-CH1
-Text Label 4800 6050 0    60   ~ 0
-CH2
-Text Label 4800 5950 0    60   ~ 0
-CH3
 Wire Wire Line
 	4550 4700 4550 4300
 Connection ~ 4550 4700
@@ -1042,8 +1065,6 @@ Wire Notes Line
 	3100 5300 5450 5300
 Wire Notes Line
 	5450 5300 5450 6500
-Text Notes 3100 5300 0    60   ~ 0
-ESC Interface
 Wire Wire Line
 	5900 3900 5900 4050
 Wire Wire Line
@@ -1056,8 +1077,46 @@ Wire Notes Line
 	3100 5300 3100 6500
 Wire Notes Line
 	3100 6500 5450 6500
-Text Label 3650 5650 0    60   ~ 0
-ESC_VCC
-Text Notes 3650 5550 0    60   ~ 0
-ESC_GND
+Wire Wire Line
+	7250 2750 9550 2750
+Wire Wire Line
+	7250 2650 8050 2650
+Wire Wire Line
+	8050 2650 8050 2550
+Wire Wire Line
+	8050 2550 9550 2550
+Wire Wire Line
+	9550 2650 8200 2650
+Connection ~ 8200 2650
+Wire Wire Line
+	9300 2450 9550 2450
+Connection ~ 9300 3150
+Wire Wire Line
+	9550 2850 9300 2850
+Connection ~ 9300 2850
+Text Notes 9350 2450 0    60   ~ 0
+GND
+Text Notes 9350 2850 0    60   ~ 0
+GND
+Text Notes 9350 2650 0    60   ~ 0
+3V3
+Text Notes 9350 2550 0    60   ~ 0
+TXD
+Text Notes 9350 2750 0    60   ~ 0
+RXD
+Text Label 7550 2650 0    60   ~ 0
+TXD0
+Text Label 7550 2750 0    60   ~ 0
+RXD0
+$Comp
+L throughhole TH?
+U 1 1 58A3D266
+P 7250 2550
+F 0 "TH?" H 7250 2350 60  0000 C CNN
+F 1 "GND" H 7350 2700 60  0001 C CNN
+F 2 "droneworks:TH" V 7250 2550 60  0001 C CNN
+F 3 "" H 7250 2550 60  0000 C CNN
+	1    7250 2550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
