@@ -3,7 +3,7 @@
 1. ESP-WROOM-32  
     Core of hachidori. 
     * [datasheet](https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf)
-
+    * [Pinout](http://files.linuxgizmos.com/espressif_espwroom32_details.jpg)
 ## Sensor  
 1. The 3-Axis gyroscope and the 3-Axis  accelerometer.  
     MPU9250  
