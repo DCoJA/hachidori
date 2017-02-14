@@ -3,7 +3,8 @@
 1. ESP-WROOM-32  
     Core of hachidori. 
     * [datasheet](https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf)
-    * [Pinout](http://files.linuxgizmos.com/espressif_espwroom32_details.jpg)
+    * [Pinout](http://files.linuxgizmos.com/espressif_espwroom32_details.jpg)  
+
 ## Sensor  
 1. The 3-Axis gyroscope and the 3-Axis  accelerometer.  
     MPU9250  
@@ -13,8 +14,7 @@
 
 2. Humidity and pressure sensor  
     BME280  
-    Connected to esp using I2C.  
-    Connected SDO pin to VDDIO, So this I2C slave address is 1110111(0x77)
+    Connected to esp using SPI.  
     * [datasheet](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280_DS001-11.pdf)
     * [buy](http://www.digikey.jp/product-detail/ja/bosch-sensortec/BME280/828-1063-1-ND/6136314)
 
