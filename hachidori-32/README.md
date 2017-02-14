@@ -1,10 +1,8 @@
-# hachidori-esp-lpc
+# hachidori-32
 ## MicroController
-1. ESP13-WROOM-12  
+1. ESP-WROOM-32  
     Core of hachidori. 
-    * [datasheet](http://doc.switch-science.com/datasheets/0b-esp8266_system_description_en_v1.4.pdf)  
-    I want to change this chip to ESP32
-        * [datasheet](https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf)
+    * [datasheet](https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf)
 
 2. LPC812M101JDH20  
     20 pin type.  
