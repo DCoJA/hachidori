@@ -25,3 +25,12 @@
     * [datasheet](http://www.ti.com/lit/ds/symlink/ina226.pdf)
     * [buy](http://www.digikey.jp/product-detail/ja/texas-instruments/INA226AIDGSR/296-29034-1-ND/2687118)
 
+## Other
+1. Regulator  
+    ADP3338  
+    Max 8.5V  
+    * [datasheet](http://www.analog.com/media/jp/technical-documentation/data-sheets/ADP3338_jp.pdf)
+    * [buy](http://www.digikey.jp/product-detail/ja/analog-devices-inc/ADP3338AKCZ-5-R7/ADP3338AKCZ-5-R7CT-ND/1007369)
+
+2. Shunt resistor
+    * [buy](http://www.digikey.jp/product-detail/ja/rohm-semiconductor/PMR18EZPFV2L00/RHM.002ALCT-ND/2094243)
