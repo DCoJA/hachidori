@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "hachidori-32"
 Date "2017-02-15"
-Rev "0.06"
+Rev "0.07"
 Comp ""
 Comment1 "Copyright (c) 2016 DroneWorks Inc."
 Comment2 "All rights reserved"
@@ -60,23 +60,23 @@ $EndComp
 $Comp
 L R R4
 U 1 1 57B2B6BF
-P 4550 1750
-F 0 "R4" V 4630 1750 50  0000 C CNN
-F 1 "10k" V 4550 1750 50  0000 C CNN
-F 2 "rohm:MCR03" V 4480 1750 50  0001 C CNN
-F 3 "" H 4550 1750 50  0000 C CNN
-	1    4550 1750
+P 4450 1750
+F 0 "R4" V 4530 1750 50  0000 C CNN
+F 1 "10k" V 4450 1750 50  0000 C CNN
+F 2 "rohm:MCR03" V 4380 1750 50  0001 C CNN
+F 3 "" H 4450 1750 50  0000 C CNN
+	1    4450 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L C CB5
 U 1 1 57B2DF30
-P 4750 4350
-F 0 "CB5" H 4775 4450 50  0000 L CNN
-F 1 "104" H 4775 4250 50  0000 L CNN
-F 2 "droneworks:GRM18" H 4788 4200 50  0001 C CNN
-F 3 "" H 4750 4350 50  0000 C CNN
-	1    4750 4350
+P 4600 4500
+F 0 "CB5" H 4600 4600 50  0000 L CNN
+F 1 "104" H 4600 4400 50  0000 L CNN
+F 2 "droneworks:GRM18" H 4638 4350 50  0001 C CNN
+F 3 "" H 4600 4500 50  0000 C CNN
+	1    4600 4500
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10150 4600
@@ -164,7 +164,7 @@ L NCP1117ST33T3G-RESCUE-hachidori U1
 U 1 1 57B50196
 P 2750 1400
 F 0 "U1" H 2750 1700 50  0000 C CNN
-F 1 "NCP1117ST33" H 2750 1600 50  0000 C CNN
+F 1 "ADP3338" H 2750 1600 50  0000 C CNN
 F 2 "droneworks:NCP1117ST" H 2750 1400 50  0001 C CNN
 F 3 "" H 2750 1400 50  0000 C CNN
 	1    2750 1400
@@ -253,9 +253,9 @@ Text Label 3150 1350 0    60   ~ 0
 3V3
 Text Label 2100 2100 0    60   ~ 0
 GND
-Text Label 4900 3250 0    60   ~ 0
+Text Label 4950 3250 0    60   ~ 0
 I2C_SDA
-Text Label 4900 3350 0    60   ~ 0
+Text Label 4950 3350 0    60   ~ 0
 I2C_SCL
 Text Notes 2500 6500 0    60   ~ 0
 GND
@@ -308,12 +308,12 @@ $EndComp
 $Comp
 L SW_PUSH SW2
 U 1 1 57BDEBB2
-P 4550 4300
-F 0 "SW2" H 4700 4410 50  0000 C CNN
-F 1 "RESET" H 4550 4250 50  0000 C CNN
-F 2 "droneworks:B3U-1000P" H 4550 4300 50  0001 C CNN
-F 3 "" H 4550 4300 50  0000 C CNN
-	1    4550 4300
+P 4450 4300
+F 0 "SW2" H 4600 4410 50  0000 C CNN
+F 1 "RESET" H 4450 4250 50  0000 C CNN
+F 2 "droneworks:B3U-1000P" H 4450 4300 50  0001 C CNN
+F 3 "" H 4450 4300 50  0000 C CNN
+	1    4450 4300
 	0    -1   -1   0   
 $EndComp
 Text Notes 3450 3450 0    60   ~ 0
@@ -440,7 +440,7 @@ L R shunt1
 U 1 1 580F0558
 P 1350 1350
 F 0 "shunt1" V 1430 1350 50  0000 C CNN
-F 1 "0.02" V 1350 1350 50  0000 C CNN
+F 1 "0.002" V 1350 1350 50  0000 C CNN
 F 2 "rohm:MCR03" V 1280 1350 50  0001 C CNN
 F 3 "" H 1350 1350 50  0000 C CNN
 	1    1350 1350
@@ -461,7 +461,7 @@ Text Notes 9050 4200 1    60   ~ 0
 MPU_SPI0_SO
 Text Notes 9350 4200 1    60   ~ 0
 MPU_SPI0_SI
-Text Label 4900 2550 0    60   ~ 0
+Text Label 4950 2550 0    60   ~ 0
 RESET
 Text Notes 8350 4600 1    60   ~ 0
 3V3
@@ -670,7 +670,7 @@ Wire Wire Line
 	3400 2100 3700 2100
 Wire Wire Line
 	3700 2100 3850 2100
-Connection ~ 4550 2550
+Connection ~ 4450 2550
 Connection ~ 9450 6500
 Wire Wire Line
 	9450 6500 9450 5900
@@ -713,9 +713,9 @@ Wire Wire Line
 	8350 4800 8350 4900
 Wire Wire Line
 	8350 4900 8350 5750
-Connection ~ 4750 4950
+Connection ~ 4600 4950
 Wire Wire Line
-	4750 4950 4750 4500
+	4600 4950 4600 4650
 Wire Wire Line
 	3700 1700 3700 1700
 Connection ~ 3700 1350
@@ -735,17 +735,17 @@ Wire Wire Line
 Wire Wire Line
 	4150 1350 4300 1350
 Wire Wire Line
-	4300 1350 4550 1350
+	4300 1350 4450 1350
 Wire Wire Line
-	4550 1350 4750 1350
+	4450 1350 4600 1350
 Wire Wire Line
-	4750 1350 7500 1350
+	4600 1350 7500 1350
 Wire Wire Line
 	7500 1350 8350 1350
 Wire Wire Line
 	8350 1350 10650 1350
 Wire Wire Line
-	4750 2450 5250 2450
+	4600 2450 5250 2450
 Wire Wire Line
 	900  1350 1150 1350
 Wire Wire Line
@@ -758,7 +758,7 @@ Wire Wire Line
 	1700 1350 1750 1350
 Connection ~ 2750 2100
 Connection ~ 8350 4900
-Connection ~ 4750 2450
+Connection ~ 4600 2450
 Connection ~ 8350 4700
 Connection ~ 8350 4800
 Wire Wire Line
@@ -768,9 +768,9 @@ Wire Wire Line
 Wire Wire Line
 	8350 4700 8550 4700
 Wire Wire Line
-	4750 1350 4750 2450
+	4600 1350 4600 2450
 Wire Wire Line
-	4750 2450 4750 4200
+	4600 2450 4600 4350
 Wire Wire Line
 	2750 1650 2750 2100
 Wire Wire Line
@@ -831,7 +831,7 @@ Wire Wire Line
 Connection ~ 2300 1350
 Connection ~ 10550 3650
 Wire Wire Line
-	4550 2550 5250 2550
+	4450 2550 5250 2550
 Wire Wire Line
 	2450 6500 6500 6500
 Wire Wire Line
@@ -855,13 +855,13 @@ Wire Wire Line
 Wire Wire Line
 	2600 4950 3850 4950
 Wire Wire Line
-	3850 4950 4550 4950
+	3850 4950 4450 4950
 Wire Wire Line
-	4550 4950 4750 4950
+	4450 4950 4600 4950
 Wire Wire Line
-	4750 4950 4950 4950
+	4600 4950 4750 4950
 Wire Wire Line
-	4950 4950 5800 4950
+	4750 4950 5800 4950
 Wire Wire Line
 	5800 4950 6600 4950
 Wire Wire Line
@@ -875,9 +875,9 @@ Wire Wire Line
 Wire Wire Line
 	1700 1350 1700 4100
 Wire Wire Line
-	3850 2100 3850 2850
+	3850 2100 3850 2550
 Wire Wire Line
-	3850 2850 3850 3450
+	3850 2550 3850 3450
 Wire Wire Line
 	3850 3450 3850 4200
 Wire Wire Line
@@ -897,9 +897,9 @@ Connection ~ 1150 1800
 Wire Wire Line
 	4300 1350 4300 1600
 Wire Wire Line
-	4550 1900 4550 2550
+	4450 1900 4450 2550
 Wire Wire Line
-	4550 2550 4550 4000
+	4450 2550 4450 4000
 Wire Wire Line
 	6500 5300 6500 5700
 Wire Wire Line
@@ -918,9 +918,9 @@ Wire Wire Line
 	7500 3650 7500 4050
 Connection ~ 7500 3650
 Wire Wire Line
-	4950 2350 5250 2350
+	4750 2350 5250 2350
 Wire Wire Line
-	4950 4950 4950 2350
+	4750 4950 4750 2350
 Wire Wire Line
 	7250 3150 9150 3150
 Wire Wire Line
@@ -946,12 +946,12 @@ Connection ~ 4300 3350
 Wire Wire Line
 	1550 1450 1550 1350
 Wire Wire Line
-	4550 1350 4550 1600
+	4450 1350 4450 1600
 Connection ~ 4300 1350
-Connection ~ 4550 1350
+Connection ~ 4450 1350
 Wire Wire Line
 	7500 1350 7500 1600
-Connection ~ 4750 1350
+Connection ~ 4600 1350
 Connection ~ 7500 1350
 Wire Wire Line
 	7250 2350 7350 2350
@@ -1096,8 +1096,8 @@ Connection ~ 6000 5700
 Wire Wire Line
 	5800 5300 6500 5300
 Wire Wire Line
-	4550 4950 4550 4600
-Connection ~ 4550 4950
+	4450 4950 4450 4600
+Connection ~ 4450 4950
 Wire Notes Line
 	4400 5100 6750 5100
 Wire Notes Line
@@ -1139,7 +1139,7 @@ Wire Wire Line
 Connection ~ 7150 6500
 Wire Wire Line
 	5800 4950 5800 3900
-Connection ~ 4950 4950
+Connection ~ 4750 4950
 Wire Wire Line
 	8050 3350 8050 2450
 Wire Wire Line
@@ -1151,8 +1151,6 @@ Wire Wire Line
 Wire Wire Line
 	7950 2850 7250 2850
 Connection ~ 8150 3450
-Wire Wire Line
-	4450 2950 5250 2950
 Wire Wire Line
 	3850 3450 3450 3450
 Wire Wire Line
@@ -1168,9 +1166,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 3150 9450 3650
 Wire Wire Line
-	4450 2950 4450 3950
-Wire Wire Line
-	4450 3950 10300 3950
+	4900 3950 10300 3950
 Wire Wire Line
 	10300 3950 10300 4800
 Wire Wire Line
@@ -1210,11 +1206,8 @@ Connection ~ 4000 2950
 Wire Wire Line
 	5250 2750 3450 2750
 Wire Wire Line
-	3850 2850 3450 2850
-Connection ~ 3850 2850
-Wire Wire Line
 	5250 2650 3450 2650
-Text Notes 3450 2850 0    60   ~ 0
+Text Notes 3450 2550 0    60   ~ 0
 GND
 $Comp
 L CONN_01X03 P?
@@ -1227,17 +1220,6 @@ F 3 "" H 3250 3350 50  0000 C CNN
 	1    3250 3350
 	-1   0    0    1   
 $EndComp
-$Comp
-L CONN_01X06 P?
-U 1 1 58A45135
-P 3250 2900
-F 0 "P?" H 3250 2550 50  0000 C CNN
-F 1 "GPIO" V 3350 2900 50  0000 C CNN
-F 2 "" H 3250 2900 50  0000 C CNN
-F 3 "" H 3250 2900 50  0000 C CNN
-	1    3250 2900
-	-1   0    0    1   
-$EndComp
 Text Label 3450 2650 0    60   ~ 0
 VP
 Text Label 3450 2750 0    60   ~ 0
@@ -1246,4 +1228,26 @@ Text Label 3450 3050 0    60   ~ 0
 GPIO32
 Text Label 3450 3150 0    60   ~ 0
 GPIO33
+Wire Wire Line
+	3450 2850 5250 2850
+Text Label 3450 2850 0    60   ~ 0
+GPIO34
+$Comp
+L CONN_01X07 P?
+U 1 1 58A47991
+P 3250 2850
+F 0 "P?" H 3250 2450 50  0000 C CNN
+F 1 "GPIO" V 3350 2850 50  0000 C CNN
+F 2 "" H 3250 2850 50  0000 C CNN
+F 3 "" H 3250 2850 50  0000 C CNN
+	1    3250 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 2550 3850 2550
+Connection ~ 3850 2550
+Wire Wire Line
+	4900 3950 4900 2950
+Wire Wire Line
+	4900 2950 5250 2950
 $EndSCHEMATC
