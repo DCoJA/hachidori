@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name rohm)(type KiCad)(uri ${KIPRJMOD}/rohm.pretty)(options "")(descr ""))
+  (lib (name droneworks)(type KiCad)(uri "$(KIPRJMOD)/droneworks.pretty")(options "")(descr ""))
+)
