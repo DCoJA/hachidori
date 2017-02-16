@@ -1,4 +1,7 @@
 # hachidori-32
+## Schematics  
+[PDF is here](https://github.com/DCoJA/hachidori/blob/hachidori-rc1.0/hachidori-32/hachidori.pdf)  
+
 ## MicroController
 1. ESP-WROOM-32  
     Core of hachidori. 
