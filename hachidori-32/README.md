@@ -34,3 +34,7 @@
 
 2. Shunt resistor
     * [buy](http://www.digikey.jp/product-detail/ja/rohm-semiconductor/PMR18EZPFV2L00/RHM.002ALCT-ND/2094243)
+
+3. RGBLED
+    * [datasheet](http://www.rohm.com/web/global/datasheet/SMLP34RGB2W)
+    * [buy](http://www.digikey.jp/product-detail/ja/rohm-semiconductor/SMLP34RGB2W3/SMLP34RGB2W3CT-ND/2921110)
