@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "hachidori-32"
 Date "2017-02-17"
-Rev "0.09"
+Rev "0.10"
 Comp ""
 Comment1 "Copyright (c) 2017 DroneWorks Inc."
 Comment2 "All rights reserved"
@@ -52,7 +52,7 @@ U 1 1 57B28F9C
 P 10000 3300
 F 0 "U5" H 10000 3600 60  0000 C CNN
 F 1 "BME280" H 10000 3050 60  0000 C CNN
-F 2 "droneworks:BME280" H 10000 3250 60  0001 C CNN
+F 2 "droneworks:campti_2SMPB-02A_BME280" H 10000 3250 60  0001 C CNN
 F 3 "" H 10000 3250 60  0000 C CNN
 	1    10000 3300
 	-1   0    0    -1  
