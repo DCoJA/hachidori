@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "hachidori-32"
 Date "2017-02-17"
-Rev "0.09"
+Rev "0.10"
 Comp ""
 Comment1 "Copyright (c) 2017 DroneWorks Inc."
 Comment2 "All rights reserved"
@@ -1246,4 +1246,6 @@ Text Label 6700 4450 1    60   ~ 0
 GPIO2
 Text Label 6600 4450 1    60   ~ 0
 GPIO15
+Text Notes 9600 2950 0    60   ~ 0
+2SMPB-02A is\n	 Compatible with BME 280
 $EndSCHEMATC
