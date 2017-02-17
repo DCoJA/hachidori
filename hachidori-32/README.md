@@ -16,6 +16,9 @@
     * [buy](http://www.digikey.com/product-detail/en/invensense/MPU-9250/1428-1019-1-ND/4626450)
 
 2. Humidity and pressure sensor  
+    2SMPB-02A  
+    Compatible with BME 280  
+    * [datasheet](https://www.omron.com/ecb/products/pdf/en-2smpb-02a.pdf)  
     BME280  
     Connected to esp using SPI.  
     * [datasheet](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280_DS001-11.pdf)
@@ -39,6 +42,6 @@
     * [buy](http://www.digikey.jp/product-detail/ja/rohm-semiconductor/PMR18EZPFV2L00/RHM.002ALCT-ND/2094243)
 
 3. RGBLED
-    SMLP34RGB2W3 
+    SMLP34RGB2W3  
     * [datasheet](http://www.rohm.com/web/global/datasheet/SMLP34RGB2W)
     * [buy](http://www.digikey.jp/product-detail/ja/rohm-semiconductor/SMLP34RGB2W3/SMLP34RGB2W3CT-ND/2921110)
