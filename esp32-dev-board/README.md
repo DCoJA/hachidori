@@ -1,4 +1,6 @@
-# hachidori-32
+# Esp32-dev-board
+    For hachidori-32
+
 ## Schematics  
 [PDF is here](https://github.com/DCoJA/hachidori/blob/hachidori-rc1.0/hachidori-32/hachidori.pdf)  
 
@@ -9,22 +11,7 @@
     * [Pinout](http://files.linuxgizmos.com/espressif_espwroom32_details.jpg)  
 
 ## Sensor  
-1. The 3-Axis gyroscope and the 3-Axis  accelerometer.  
-    MPU9250  
-    Connected to esp using SPI.
-    * [datasheet](https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf)
-    * [buy](http://www.digikey.com/product-detail/en/invensense/MPU-9250/1428-1019-1-ND/4626450)
-
-2. Humidity and pressure sensor  
-    2SMPB-02A  
-    Compatible with BME 280  
-    * [datasheet](https://www.omron.com/ecb/products/pdf/en-2smpb-02a.pdf)  
-    BME280  
-    Connected to esp using SPI.  
-    * [datasheet](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280_DS001-11.pdf)
-    * [buy](http://www.digikey.jp/product-detail/ja/bosch-sensortec/BME280/828-1063-1-ND/6136314)
-
-3. Current and Power Monitor  
+1. Current and Power Monitor  
     INA226
     Connected to esp using I2C.  
     Connected A1 pin to 3V3 and A2 pin to GND, So this I2C slave address is 1000100(0x44)
