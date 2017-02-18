@@ -179,17 +179,6 @@ F 3 "" H 2800 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CB6
-U 1 1 57B915F7
-P 9300 5350
-F 0 "CB6" H 9325 5450 50  0000 L CNN
-F 1 "104" H 9325 5250 50  0000 L CNN
-F 2 "droneworks:GRM18" H 9338 5200 50  0001 C CNN
-F 3 "" H 9300 5350 50  0000 C CNN
-	1    9300 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_01X02 P1
 U 1 1 57B99954
 P 1200 1750
@@ -521,10 +510,6 @@ Wire Wire Line
 Connection ~ 3650 2450
 Wire Wire Line
 	3650 2450 3650 2250
-Wire Wire Line
-	9300 5650 9300 5500
-Wire Wire Line
-	9300 1700 9300 5200
 Connection ~ 5100 5650
 Wire Wire Line
 	5100 5650 5100 5050
@@ -575,8 +560,6 @@ Wire Wire Line
 Connection ~ 2800 1700
 Wire Wire Line
 	4950 2900 5650 2900
-Wire Wire Line
-	2750 5650 9300 5650
 Wire Wire Line
 	2200 1700 2200 5050
 Wire Wire Line
@@ -676,7 +659,6 @@ Connection ~ 9300 2900
 Wire Wire Line
 	9550 3100 9150 3100
 Connection ~ 9150 3100
-Connection ~ 9150 5650
 Wire Wire Line
 	7450 5650 7450 5600
 Connection ~ 7450 5650
@@ -743,7 +725,6 @@ Wire Wire Line
 Connection ~ 4350 2900
 Wire Wire Line
 	3950 3300 5650 3300
-Connection ~ 4500 5250
 $Comp
 L PICOLED-RGB D1
 U 1 1 58A641CF
@@ -772,7 +753,6 @@ Wire Wire Line
 	7100 4250 7100 5000
 Wire Wire Line
 	8300 5000 9300 5000
-Connection ~ 9300 5000
 Wire Wire Line
 	7000 5200 7200 5200
 Wire Wire Line
@@ -858,4 +838,8 @@ F 3 "" H 8900 3450 50  0000 C CNN
 	1    8900 3450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2750 5650 9150 5650
+Wire Wire Line
+	9300 5000 9300 1700
 $EndSCHEMATC
