@@ -38,8 +38,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "hachidori-32"
-Date "2017-02-17"
-Rev "0.11"
+Date "2017-02-24"
+Rev "0.12"
 Comp ""
 Comment1 "Copyright (c) 2017 DroneWorks Inc."
 Comment2 "All rights reserved"
@@ -423,26 +423,13 @@ Text Label 3950 4000 0    60   ~ 0
 CH2
 Text Label 3950 3900 0    60   ~ 0
 CH3
-$Comp
-L CONN_01X05 P8
-U 1 1 58A39F84
-P 9750 2900
-F 0 "P8" H 9750 3200 50  0000 C CNN
-F 1 "Program" V 9850 2900 50  0000 C CNN
-F 2 "droneworks:Pin_Header_1x05" H 9750 2900 50  0001 C CNN
-F 3 "" H 9750 2900 50  0000 C CNN
-	1    9750 2900
-	1    0    0    -1  
-$EndComp
 Text Notes 9350 2700 0    60   ~ 0
 GND
-Text Notes 9350 3100 0    60   ~ 0
-GND
-Text Notes 9350 2900 0    60   ~ 0
+Text Notes 9350 2600 0    60   ~ 0
 3V3
-Text Notes 9350 2800 0    60   ~ 0
+Text Notes 9350 2850 0    60   ~ 0
 TXD
-Text Notes 9350 3000 0    60   ~ 0
+Text Notes 9350 2950 0    60   ~ 0
 RXD
 Text Label 7700 3000 0    60   ~ 0
 TXD0
@@ -602,7 +589,7 @@ Connection ~ 8550 1700
 Wire Wire Line
 	7650 2700 9550 2700
 Wire Wire Line
-	9150 2700 9150 5650
+	9150 5650 9150 2700
 Wire Wire Line
 	7100 5600 7100 5700
 Connection ~ 7100 5650
@@ -652,13 +639,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 3000 8300 3000
 Wire Wire Line
-	8300 3000 8300 2800
-Wire Wire Line
-	9550 2900 9300 2900
-Connection ~ 9300 2900
-Wire Wire Line
-	9550 3100 9150 3100
-Connection ~ 9150 3100
+	8300 3000 8300 2850
 Wire Wire Line
 	7450 5650 7450 5600
 Connection ~ 7450 5650
@@ -684,8 +665,6 @@ Wire Wire Line
 	5650 3100 3950 3100
 Wire Wire Line
 	5650 3000 3950 3000
-Text Notes 3950 2900 0    60   ~ 0
-GND
 $Comp
 L CONN_01X03 P3
 U 1 1 58A44F55
@@ -721,9 +700,6 @@ F 3 "" H 3750 3200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3950 2900 4350 2900
-Connection ~ 4350 2900
-Wire Wire Line
 	3950 3300 5650 3300
 $Comp
 L PICOLED-RGB D1
@@ -752,7 +728,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 4250 7100 5000
 Wire Wire Line
-	8300 5000 9300 5000
+	9300 5000 8300 5000
 Wire Wire Line
 	7000 5200 7200 5200
 Wire Wire Line
@@ -810,11 +786,11 @@ Wire Wire Line
 Wire Wire Line
 	7650 2900 8500 2900
 Wire Wire Line
-	8300 2800 9550 2800
+	8300 2850 9550 2850
 Wire Wire Line
-	9550 3000 8400 3000
+	9550 2950 8400 2950
 Wire Wire Line
-	8400 3000 8400 3100
+	8400 2950 8400 3100
 Wire Wire Line
 	8400 3100 7650 3100
 Wire Wire Line
@@ -841,5 +817,35 @@ $EndComp
 Wire Wire Line
 	2750 5650 9150 5650
 Wire Wire Line
-	9300 5000 9300 1700
+	9300 1700 9300 5000
+Connection ~ 9300 2600
+Wire Wire Line
+	9550 2600 9300 2600
+$Comp
+L CONN_01X02 P7
+U 1 1 58AC5648
+P 9750 2900
+F 0 "P7" H 9750 3050 50  0000 C CNN
+F 1 "Program" V 9850 2900 50  0000 C CNN
+F 2 "droneworks:Pin_Header_1x02" H 9750 2900 50  0001 C CNN
+F 3 "" H 9750 2900 50  0000 C CNN
+	1    9750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P6
+U 1 1 58AC56CB
+P 9750 2650
+F 0 "P6" H 9750 2800 50  0000 C CNN
+F 1 "3V3_GND" V 9850 2650 50  0000 C CNN
+F 2 "droneworks:Pin_Header_1x02" H 9750 2650 50  0001 C CNN
+F 3 "" H 9750 2650 50  0000 C CNN
+	1    9750 2650
+	1    0    0    -1  
+$EndComp
+Text Notes 3950 2900 0    60   ~ 0
+3V3
+Wire Wire Line
+	3950 2900 4500 2900
+Connection ~ 4500 2900
 $EndSCHEMATC
